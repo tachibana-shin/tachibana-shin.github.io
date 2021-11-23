@@ -1,0 +1,11 @@
+---
+title: Tachibana Shin (たちばなしん)
+---
+
+<ClientOnly>
+  <Plum/>
+</ClientOnly>
+
+Hi, I'm Tachibana Shin (たちばなしん), an anime and manga fanatic, I love Japan, its people and everything about the "land of the rising sun". I am a freelancer and freelance contributor for open source projects like [Vue](https://github.com/vuejs), [Ionic Framework](https://github.com/ionic-team/ ionic-framework)...
+
+Creator of [appclonecmd](https://github.com/tachibana-shin/app-clone-command), [Wecde](https://github.com/wecde/wecde)/, and some other plugins --- Find me on [GitHub](https://github.com/tachibana-shin), [Twitter](https://www.twitter.com/tachib_shin) mail me at [thanhnguyennguyen1995@gmail.com](mailto:thanhnguyennguyen1995@gmail.com). If you like my works, consider sponsoring me on GitHub Sponsors to keep them sustainable.
