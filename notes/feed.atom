@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://tachibana-shin.github.io/notes</id>
+    <title>Tachibana Shin (たちばなしん)'s Notes</title>
+    <updated>2021-11-23T14:52:28.593Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>Tachibana Shin</name>
+        <email>thanhnguyennguyen1995@gmail.com</email>
+        <uri>https://tachibana-shin.github.io</uri>
+    </author>
+    <link rel="alternate" href="https://tachibana-shin.github.io/notes"/>
+    <link rel="self" href="https://tachibana-shin.github.io/notes/feed.atom"/>
+    <subtitle>Tachibana Shin (たちばなしん)'s Notes</subtitle>
+    <logo>https://tachibana-shin.github.io/avatar-flat.jpg</logo>
+    <icon>https://tachibana-shin.github.io/avatar.png</icon>
+    <rights>MIT 2021 © Tachibana Shin (たちばなしん)</rights>
+    <entry>
+        <title type="html"><![CDATA[`plutil` in PongoOS, iOS]]></title>
+        <id>https://tachibana-shin.github.io/notes#plutil-in-pongoos-ios</id>
+        <link href="https://tachibana-shin.github.io/notes#plutil-in-pongoos-ios"/>
+        <updated>2021-09-13T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p><em>2021/09/13</em></p>
+<pre><code class="language-bash">plutil -key MCMMetadataIdentifier &quot;$APP_FOLDER/$metadata&quot; 2&gt; /dev/null #get value
+plutil -key CFBundleIdentifier -string $BUNDLE_ID_NEW $INFO_ROOT #set value
+</code></pre>
+]]></content>
+        <author>
+            <name>Tachibana Shin</name>
+            <email>thanhnguyennguyen1995@gmail.com</email>
+            <uri>https://tachibana-shin.github.io</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Clean npm & yarn cache]]></title>
+        <id>https://tachibana-shin.github.io/notes#clean-npm-yarn-cache</id>
+        <link href="https://tachibana-shin.github.io/notes#clean-npm-yarn-cache"/>
+        <updated>2021-09-08T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p><em>2021/09/08</em></p>
+<p>My disk is full today :(</p>
+<pre><code class="language-bash">npm cache clean --force
+yarn cache clean
+</code></pre>
+]]></content>
+        <author>
+            <name>Tachibana Shin</name>
+            <email>thanhnguyennguyen1995@gmail.com</email>
+            <uri>https://tachibana-shin.github.io</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[isomorphic-git on Ionic, Capacitor]]></title>
+        <id>https://tachibana-shin.github.io/notes#isomorphic-git-on-ionic-capacitor</id>
+        <link href="https://tachibana-shin.github.io/notes#isomorphic-git-on-ionic-capacitor"/>
+        <updated>2021-08-31T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p><em>2021/08/31</em></p>
+<p>Use <a href="https://npmjs.org/package/capacitor-fs">capacitor-fs</a></p>
+<pre><code class="language-ts">import { createFileSystem } from &quot;capacitor-fs&quot;
+import { Filesystem, Directory } from &quot;@capacitor/filesystem&quot;
+
+const fs = createFileSystem(Filesystem, {
+   rootDir: &quot;/&quot;,
+   directory: Directory.Documents,
+   base64Alway: true, 
+})
+
+git.clone({
+  fs,
+  // ...
+})
+</code></pre>
+]]></content>
+        <author>
+            <name>Tachibana Shin</name>
+            <email>thanhnguyennguyen1995@gmail.com</email>
+            <uri>https://tachibana-shin.github.io</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Host free]]></title>
+        <id>https://tachibana-shin.github.io/notes#host-free</id>
+        <link href="https://tachibana-shin.github.io/notes#host-free"/>
+        <updated>2021-07-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p><em>2021/07/01</em></p>
+<p>webhost000, heroku, firebase, netflix</p>
+]]></content>
+        <author>
+            <name>Tachibana Shin</name>
+            <email>thanhnguyennguyen1995@gmail.com</email>
+            <uri>https://tachibana-shin.github.io</uri>
+        </author>
+    </entry>
+</feed>

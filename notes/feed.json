@@ -1,0 +1,54 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Tachibana Shin (たちばなしん)'s Notes",
+    "home_page_url": "https://tachibana-shin.github.io/notes",
+    "feed_url": "https://tachibana-shin.github.io/notes/feed.json",
+    "description": "Tachibana Shin (たちばなしん)'s Notes",
+    "icon": "https://tachibana-shin.github.io/avatar-flat.jpg",
+    "author": {
+        "name": "Tachibana Shin",
+        "url": "https://tachibana-shin.github.io"
+    },
+    "items": [
+        {
+            "content_html": "<p><em>2021/09/13</em></p>\n<pre><code class=\"language-bash\">plutil -key MCMMetadataIdentifier &quot;$APP_FOLDER/$metadata&quot; 2&gt; /dev/null #get value\nplutil -key CFBundleIdentifier -string $BUNDLE_ID_NEW $INFO_ROOT #set value\n</code></pre>\n",
+            "url": "https://tachibana-shin.github.io/notes#plutil-in-pongoos-ios",
+            "title": "`plutil` in PongoOS, iOS",
+            "date_modified": "2021-09-13T00:00:00.000Z",
+            "author": {
+                "name": "Tachibana Shin",
+                "url": "https://tachibana-shin.github.io"
+            }
+        },
+        {
+            "content_html": "<p><em>2021/09/08</em></p>\n<p>My disk is full today :(</p>\n<pre><code class=\"language-bash\">npm cache clean --force\nyarn cache clean\n</code></pre>\n",
+            "url": "https://tachibana-shin.github.io/notes#clean-npm-yarn-cache",
+            "title": "Clean npm & yarn cache",
+            "date_modified": "2021-09-08T00:00:00.000Z",
+            "author": {
+                "name": "Tachibana Shin",
+                "url": "https://tachibana-shin.github.io"
+            }
+        },
+        {
+            "content_html": "<p><em>2021/08/31</em></p>\n<p>Use <a href=\"https://npmjs.org/package/capacitor-fs\">capacitor-fs</a></p>\n<pre><code class=\"language-ts\">import { createFileSystem } from &quot;capacitor-fs&quot;\nimport { Filesystem, Directory } from &quot;@capacitor/filesystem&quot;\n\nconst fs = createFileSystem(Filesystem, {\n   rootDir: &quot;/&quot;,\n   directory: Directory.Documents,\n   base64Alway: true, \n})\n\ngit.clone({\n  fs,\n  // ...\n})\n</code></pre>\n",
+            "url": "https://tachibana-shin.github.io/notes#isomorphic-git-on-ionic-capacitor",
+            "title": "isomorphic-git on Ionic, Capacitor",
+            "date_modified": "2021-08-31T00:00:00.000Z",
+            "author": {
+                "name": "Tachibana Shin",
+                "url": "https://tachibana-shin.github.io"
+            }
+        },
+        {
+            "content_html": "<p><em>2021/07/01</em></p>\n<p>webhost000, heroku, firebase, netflix</p>\n",
+            "url": "https://tachibana-shin.github.io/notes#host-free",
+            "title": "Host free",
+            "date_modified": "2021-07-01T00:00:00.000Z",
+            "author": {
+                "name": "Tachibana Shin",
+                "url": "https://tachibana-shin.github.io"
+            }
+        }
+    ]
+}
