@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://tachibana-shin.github.io/feed.xml
