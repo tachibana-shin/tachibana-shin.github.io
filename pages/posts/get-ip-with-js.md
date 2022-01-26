@@ -11,11 +11,11 @@ You can get v4 IP info using API: http://ip-api.com/json
 
 Get IP info (v6 preferred if available) using: http://api.myip.com
 
-and get all IP provider information by `https://api.iplocation.net/?ip=`)<IP v4 or v6>`
+and get all IP provider information by `https://api.iplocation.net/?ip=<IP v4 or v6>`
 
 Try it:
 
-``` js
+``` ts
 const [IPv4, IPv6] = await Promise.all([
   fetch("http://ip-api.com/json").then(res => res.json()),
   fetch("http://api.myip.com").then(res => res.json()),
