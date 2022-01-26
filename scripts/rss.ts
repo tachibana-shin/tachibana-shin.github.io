@@ -56,7 +56,7 @@ async function buildBlogRSS() {
 
           return {
             ...data,
-            date: new Date(data.date),
+            date: new Date(data.date ?? fs.lstatSync(i).mtimeMs),
             content: html,
             author: [AUTHOR],
             link: DOMAIN + i.replace(/^pages(.+)\.md$/, "$1"),
