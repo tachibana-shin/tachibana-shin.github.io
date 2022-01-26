@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tachibana-shin.github.io/</id>
     <title>Tachibana Shin (たちばなしん)</title>
-    <updated>2021-12-02T00:30:48.316Z</updated>
+    <updated>2022-01-26T04:23:35.307Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Tachibana Shin</name>
@@ -14,7 +14,48 @@
     <subtitle>Tachibana Shin (たちばなしん)' Blog</subtitle>
     <logo>https://tachibana-shin.github.io/avatar-flat.jpg</logo>
     <icon>https://tachibana-shin.github.io/avatar.png</icon>
-    <rights>MIT 2021 © Tachibana Shin (たちばなしん)</rights>
+    <rights>MIT 2022 © Tachibana Shin (たちばなしん)</rights>
+    <entry>
+        <title type="html"><![CDATA[Get information device from JavaScript]]></title>
+        <id>https://tachibana-shin.github.io/posts/get-ip-with-js</id>
+        <link href="https://tachibana-shin.github.io/posts/get-ip-with-js"/>
+        <updated>2022-01-26T04:23:06.716Z</updated>
+        <summary type="html"><![CDATA[My site is now powered by Vite!]]></summary>
+        <content type="html"><![CDATA[<p>[[toc]]</p>
+<p>You can get v4 IP info using API: <a href="http://ip-api.com/json">http://ip-api.com/json</a></p>
+<p>Get IP info (v6 preferred if available) using: <a href="http://api.myip.com">http://api.myip.com</a></p>
+<p>and get all IP provider information by <code>https://api.iplocation.net/?ip=&lt;IP v4 or v6&gt;</code></p>
+<p>Try it:</p>
+<pre><code class="language-ts">const [IPv4, IPv6] = await Promise.all([
+  fetch(&quot;http://ip-api.com/json&quot;).then(res =&gt; res.json()),
+  fetch(&quot;http://api.myip.com&quot;).then(res =&gt; res.json()),
+])
+
+console.log(IPv4, IPv6);
+
+if (IPv4.query === IPv6.ip) {
+  // not exists IP v6
+  const info = await Promise.all([
+    fetch(`https://api.iplocation.net/?ip=${IPv4.query}`).then(res =&gt; res.json()),
+  ])
+  
+  console.log(Array.from(info));
+} else {
+  const info = await Promise.all([
+    fetch(`https://api.iplocation.net/?ip=${IPv4.query}`).then(res =&gt; res.json()),
+    fetch(`https://api.iplocation.net/?ip=${IPv6.ip}`).then(res =&gt; res.json()),
+  ])
+  
+  console.log(Array.from(info));
+}
+</code></pre>
+]]></content>
+        <author>
+            <name>Tachibana Shin</name>
+            <email>thanhnguyennguyen1995@gmail.com</email>
+            <uri>https://tachibana-shin.github.io</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello My Talk]]></title>
         <id>https://tachibana-shin.github.io/posts/hello-talks</id>

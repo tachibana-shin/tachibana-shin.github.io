@@ -4,7 +4,7 @@
         <title>Tachibana Shin (たちばなしん)</title>
         <link>https://tachibana-shin.github.io/</link>
         <description>Tachibana Shin (たちばなしん)' Blog</description>
-        <lastBuildDate>Thu, 02 Dec 2021 00:30:48 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Jan 2022 04:23:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -12,8 +12,45 @@
             <url>https://tachibana-shin.github.io/avatar-flat.jpg</url>
             <link>https://tachibana-shin.github.io/</link>
         </image>
-        <copyright>MIT 2021 © Tachibana Shin (たちばなしん)</copyright>
+        <copyright>MIT 2022 © Tachibana Shin (たちばなしん)</copyright>
         <atom:link href="https://tachibana-shin.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Get information device from JavaScript]]></title>
+            <link>https://tachibana-shin.github.io/posts/get-ip-with-js</link>
+            <guid>https://tachibana-shin.github.io/posts/get-ip-with-js</guid>
+            <pubDate>Wed, 26 Jan 2022 04:23:06 GMT</pubDate>
+            <description><![CDATA[My site is now powered by Vite!]]></description>
+            <content:encoded><![CDATA[<p>[[toc]]</p>
+<p>You can get v4 IP info using API: <a href="http://ip-api.com/json">http://ip-api.com/json</a></p>
+<p>Get IP info (v6 preferred if available) using: <a href="http://api.myip.com">http://api.myip.com</a></p>
+<p>and get all IP provider information by <code>https://api.iplocation.net/?ip=&lt;IP v4 or v6&gt;</code></p>
+<p>Try it:</p>
+<pre><code class="language-ts">const [IPv4, IPv6] = await Promise.all([
+  fetch(&quot;http://ip-api.com/json&quot;).then(res =&gt; res.json()),
+  fetch(&quot;http://api.myip.com&quot;).then(res =&gt; res.json()),
+])
+
+console.log(IPv4, IPv6);
+
+if (IPv4.query === IPv6.ip) {
+  // not exists IP v6
+  const info = await Promise.all([
+    fetch(`https://api.iplocation.net/?ip=${IPv4.query}`).then(res =&gt; res.json()),
+  ])
+  
+  console.log(Array.from(info));
+} else {
+  const info = await Promise.all([
+    fetch(`https://api.iplocation.net/?ip=${IPv4.query}`).then(res =&gt; res.json()),
+    fetch(`https://api.iplocation.net/?ip=${IPv6.ip}`).then(res =&gt; res.json()),
+  ])
+  
+  console.log(Array.from(info));
+}
+</code></pre>
+]]></content:encoded>
+            <author>thanhnguyennguyen1995@gmail.com (Tachibana Shin)</author>
+        </item>
         <item>
             <title><![CDATA[Hello My Talk]]></title>
             <link>https://tachibana-shin.github.io/posts/hello-talks</link>
