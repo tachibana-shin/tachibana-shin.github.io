@@ -11,6 +11,9 @@
     <nav class="nav">
       <div class="spacer" />
       <div class="right">
+        <a href="https://shin.is-a.dev/repo" target="_blank">
+          <span>Cydia</span>
+        </a>
         <router-link to="/posts">
           <span class="lt-md:hidden">Blog</span>
           <ri-article-line class="md:hidden" />
