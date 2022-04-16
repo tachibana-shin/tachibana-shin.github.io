@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://tachibana-shin.github.io/</id>
+    <id>https://shin.is-a.dev/</id>
     <title>Tachibana Shin (たちばなしん)</title>
-    <updated>2022-04-16T07:33:45.777Z</updated>
+    <updated>2022-04-16T07:53:40.613Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Tachibana Shin</name>
         <email>thanhnguyennguyen1995@gmail.com</email>
-        <uri>https://tachibana-shin.github.io</uri>
+        <uri>https://shin.is-a.dev</uri>
     </author>
-    <link rel="alternate" href="https://tachibana-shin.github.io/"/>
-    <link rel="self" href="https://tachibana-shin.github.io/feed.atom"/>
+    <link rel="alternate" href="https://shin.is-a.dev/"/>
+    <link rel="self" href="https://shin.is-a.dev/feed.atom"/>
     <subtitle>Tachibana Shin (たちばなしん)' Blog</subtitle>
-    <logo>https://tachibana-shin.github.io/avatar-flat.jpg</logo>
-    <icon>https://tachibana-shin.github.io/avatar.png</icon>
+    <logo>https://shin.is-a.dev/avatar-flat.jpg</logo>
+    <icon>https://shin.is-a.dev/avatar.png</icon>
     <rights>MIT 2022 © Tachibana Shin (たちばなしん)</rights>
     <entry>
         <title type="html"><![CDATA[Get information device from JavaScript]]></title>
-        <id>https://tachibana-shin.github.io/posts/get-ip-with-js</id>
-        <link href="https://tachibana-shin.github.io/posts/get-ip-with-js"/>
-        <updated>2022-04-16T07:33:14.701Z</updated>
+        <id>https://shin.is-a.dev/posts/get-ip-with-js</id>
+        <link href="https://shin.is-a.dev/posts/get-ip-with-js"/>
+        <updated>2022-04-16T07:53:02.647Z</updated>
         <summary type="html"><![CDATA[My site is now powered by Vite!]]></summary>
         <content type="html"><![CDATA[<p>[[toc]]</p>
 <p>You can get v4 IP info using API: <a href="http://ip-api.com/json">http://ip-api.com/json</a></p>
@@ -53,39 +53,39 @@ if (IPv4.query === IPv6.ip) {
         <author>
             <name>Tachibana Shin</name>
             <email>thanhnguyennguyen1995@gmail.com</email>
-            <uri>https://tachibana-shin.github.io</uri>
+            <uri>https://shin.is-a.dev</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello My Talk]]></title>
-        <id>https://tachibana-shin.github.io/posts/hello-talks</id>
-        <link href="https://tachibana-shin.github.io/posts/hello-talks"/>
+        <id>https://shin.is-a.dev/posts/hello-talks</id>
+        <link href="https://shin.is-a.dev/posts/hello-talks"/>
         <updated>2021-05-19T16:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>Hello my blog! This is first talk on my blog.</p>
 ]]></content>
         <author>
             <name>Tachibana Shin</name>
             <email>thanhnguyennguyen1995@gmail.com</email>
-            <uri>https://tachibana-shin.github.io</uri>
+            <uri>https://shin.is-a.dev</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello My Blog]]></title>
-        <id>https://tachibana-shin.github.io/posts/hello</id>
-        <link href="https://tachibana-shin.github.io/posts/hello"/>
+        <id>https://shin.is-a.dev/posts/hello</id>
+        <link href="https://shin.is-a.dev/posts/hello"/>
         <updated>2021-05-19T16:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>Hello my blog! This is first post on my blog.</p>
 ]]></content>
         <author>
             <name>Tachibana Shin</name>
             <email>thanhnguyennguyen1995@gmail.com</email>
-            <uri>https://tachibana-shin.github.io</uri>
+            <uri>https://shin.is-a.dev</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Composable Vue - VueDay 2021]]></title>
-        <id>https://tachibana-shin.github.io/posts/composable-vue-vueday-2021</id>
-        <link href="https://tachibana-shin.github.io/posts/composable-vue-vueday-2021"/>
+        <id>https://shin.is-a.dev/posts/composable-vue-vueday-2021</id>
+        <link href="https://shin.is-a.dev/posts/composable-vue-vueday-2021"/>
         <updated>2021-04-28T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[Slides & transcript for my talk at VueDay 2021]]></summary>
         <content type="html"><![CDATA[<p>My sharing today is Composable Vue, some pattens and tips that might be able to help you writing better composable logic in Vue.</p>
@@ -580,13 +580,13 @@ import { ref, reactive, defineComponent } from 'vue-demi'
         <author>
             <name>Tachibana Shin</name>
             <email>thanhnguyennguyen1995@gmail.com</email>
-            <uri>https://tachibana-shin.github.io</uri>
+            <uri>https://shin.is-a.dev</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Rewrite in Vite]]></title>
-        <id>https://tachibana-shin.github.io/posts/rewrite-in-vite</id>
-        <link href="https://tachibana-shin.github.io/posts/rewrite-in-vite"/>
+        <id>https://shin.is-a.dev/posts/rewrite-in-vite</id>
+        <link href="https://shin.is-a.dev/posts/rewrite-in-vite"/>
         <updated>2021-01-31T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[My site is now powered by Vite!]]></summary>
         <content type="html"><![CDATA[<p>[[toc]]</p>
@@ -753,13 +753,13 @@ useHead({
         <author>
             <name>Tachibana Shin</name>
             <email>thanhnguyennguyen1995@gmail.com</email>
-            <uri>https://tachibana-shin.github.io</uri>
+            <uri>https://shin.is-a.dev</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Watch with @vue/reactivity]]></title>
-        <id>https://tachibana-shin.github.io/posts/watch-with-reactivity</id>
-        <link href="https://tachibana-shin.github.io/posts/watch-with-reactivity"/>
+        <id>https://shin.is-a.dev/posts/watch-with-reactivity</id>
+        <link href="https://shin.is-a.dev/posts/watch-with-reactivity"/>
         <updated>2020-09-18T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[A brief intro of how it works and a guide to implementing the (missing) `watch` on your own.]]></summary>
         <content type="html"><![CDATA[<p>[[toc]]</p>
@@ -958,13 +958,13 @@ yarn add <a href='https://github.com/antfu/vue-reactivity-watch' target='_blank'
         <author>
             <name>Tachibana Shin</name>
             <email>thanhnguyennguyen1995@gmail.com</email>
-            <uri>https://tachibana-shin.github.io</uri>
+            <uri>https://shin.is-a.dev</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Type Inferencing in Vue]]></title>
-        <id>https://tachibana-shin.github.io/posts/type-inferencing-in-vue</id>
-        <link href="https://tachibana-shin.github.io/posts/type-inferencing-in-vue"/>
+        <id>https://shin.is-a.dev/posts/type-inferencing-in-vue</id>
+        <link href="https://shin.is-a.dev/posts/type-inferencing-in-vue"/>
         <updated>2020-06-28T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>[[toc]]</p>
 <p>As you may or may not know, I am working on preparing to release the v1.0 version for <a href="https://github.com/vuejs/composition-api">@vue/composition-api</a> recently. One of the current problems is that the type inference does not play well <a href="https://github.com/vuejs/composition-api/issues/338">#338</a>. So I get a chance to have a deeper look at <a href="https://github.com/vuejs/composition-api">vue-next</a>'s type implementations. I will tell you what I learned and how magic works in Vue.</p>
@@ -1109,13 +1109,13 @@ define({
         <author>
             <name>Tachibana Shin</name>
             <email>thanhnguyennguyen1995@gmail.com</email>
-            <uri>https://tachibana-shin.github.io</uri>
+            <uri>https://shin.is-a.dev</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Domain Email]]></title>
-        <id>https://tachibana-shin.github.io/posts/domain-email</id>
-        <link href="https://tachibana-shin.github.io/posts/domain-email"/>
+        <id>https://shin.is-a.dev/posts/domain-email</id>
+        <link href="https://shin.is-a.dev/posts/domain-email"/>
         <updated>2020-06-17T16:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>Saw <a href="https://twitter.com/youyuxi/status/1272932071749619712">a tweet from Evan You</a> about the <a href="https://hey.com/">hey.com</a> mail service recently. I got interested in having a short and nice email address. My current one in Hotmail is just too long to even being spell out in talk. <code>hey.com</code> looks very nice but $99/year is not a very good deal to me. I decide to use my own domain for receiving emails.</p>
 <p>I did this a couple years ago for another domain, I kinda remember an open-source tool allowing forwarding emails by just adding DNS record. I took some time to search for it but I didn't find the page matches with my memory. I went GitHub to search in my stared projects, it turns out the tool now becomes and Freemium SaaS <a href="https://forwardemail.net/">forwardemail.net</a> with a fresh new logo and website design that I can't even recognize it.</p>
@@ -1131,7 +1131,7 @@ TXT  @  forward-email=youremail@example.com
         <author>
             <name>Tachibana Shin</name>
             <email>thanhnguyennguyen1995@gmail.com</email>
-            <uri>https://tachibana-shin.github.io</uri>
+            <uri>https://shin.is-a.dev</uri>
         </author>
     </entry>
 </feed>

@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tachibana Shin (たちばなしん)</title>
-        <link>https://tachibana-shin.github.io/</link>
+        <link>https://shin.is-a.dev/</link>
         <description>Tachibana Shin (たちばなしん)' Blog</description>
-        <lastBuildDate>Sat, 16 Apr 2022 07:33:45 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 16 Apr 2022 07:53:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
             <title>Tachibana Shin (たちばなしん)</title>
-            <url>https://tachibana-shin.github.io/avatar-flat.jpg</url>
-            <link>https://tachibana-shin.github.io/</link>
+            <url>https://shin.is-a.dev/avatar-flat.jpg</url>
+            <link>https://shin.is-a.dev/</link>
         </image>
         <copyright>MIT 2022 © Tachibana Shin (たちばなしん)</copyright>
-        <atom:link href="https://tachibana-shin.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+        <atom:link href="https://shin.is-a.dev/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Get information device from JavaScript]]></title>
-            <link>https://tachibana-shin.github.io/posts/get-ip-with-js</link>
-            <guid>https://tachibana-shin.github.io/posts/get-ip-with-js</guid>
-            <pubDate>Sat, 16 Apr 2022 07:33:14 GMT</pubDate>
+            <link>https://shin.is-a.dev/posts/get-ip-with-js</link>
+            <guid>https://shin.is-a.dev/posts/get-ip-with-js</guid>
+            <pubDate>Sat, 16 Apr 2022 07:53:02 GMT</pubDate>
             <description><![CDATA[My site is now powered by Vite!]]></description>
             <content:encoded><![CDATA[<p>[[toc]]</p>
 <p>You can get v4 IP info using API: <a href="http://ip-api.com/json">http://ip-api.com/json</a></p>
@@ -53,8 +53,8 @@ if (IPv4.query === IPv6.ip) {
         </item>
         <item>
             <title><![CDATA[Hello My Talk]]></title>
-            <link>https://tachibana-shin.github.io/posts/hello-talks</link>
-            <guid>https://tachibana-shin.github.io/posts/hello-talks</guid>
+            <link>https://shin.is-a.dev/posts/hello-talks</link>
+            <guid>https://shin.is-a.dev/posts/hello-talks</guid>
             <pubDate>Wed, 19 May 2021 16:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>Hello my blog! This is first talk on my blog.</p>
 ]]></content:encoded>
@@ -62,8 +62,8 @@ if (IPv4.query === IPv6.ip) {
         </item>
         <item>
             <title><![CDATA[Hello My Blog]]></title>
-            <link>https://tachibana-shin.github.io/posts/hello</link>
-            <guid>https://tachibana-shin.github.io/posts/hello</guid>
+            <link>https://shin.is-a.dev/posts/hello</link>
+            <guid>https://shin.is-a.dev/posts/hello</guid>
             <pubDate>Wed, 19 May 2021 16:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>Hello my blog! This is first post on my blog.</p>
 ]]></content:encoded>
@@ -71,8 +71,8 @@ if (IPv4.query === IPv6.ip) {
         </item>
         <item>
             <title><![CDATA[Composable Vue - VueDay 2021]]></title>
-            <link>https://tachibana-shin.github.io/posts/composable-vue-vueday-2021</link>
-            <guid>https://tachibana-shin.github.io/posts/composable-vue-vueday-2021</guid>
+            <link>https://shin.is-a.dev/posts/composable-vue-vueday-2021</link>
+            <guid>https://shin.is-a.dev/posts/composable-vue-vueday-2021</guid>
             <pubDate>Wed, 28 Apr 2021 16:00:00 GMT</pubDate>
             <description><![CDATA[Slides & transcript for my talk at VueDay 2021]]></description>
             <content:encoded><![CDATA[<p>My sharing today is Composable Vue, some pattens and tips that might be able to help you writing better composable logic in Vue.</p>
@@ -568,8 +568,8 @@ import { ref, reactive, defineComponent } from 'vue-demi'
         </item>
         <item>
             <title><![CDATA[Rewrite in Vite]]></title>
-            <link>https://tachibana-shin.github.io/posts/rewrite-in-vite</link>
-            <guid>https://tachibana-shin.github.io/posts/rewrite-in-vite</guid>
+            <link>https://shin.is-a.dev/posts/rewrite-in-vite</link>
+            <guid>https://shin.is-a.dev/posts/rewrite-in-vite</guid>
             <pubDate>Sun, 31 Jan 2021 16:00:00 GMT</pubDate>
             <description><![CDATA[My site is now powered by Vite!]]></description>
             <content:encoded><![CDATA[<p>[[toc]]</p>
@@ -737,8 +737,8 @@ useHead({
         </item>
         <item>
             <title><![CDATA[Watch with @vue/reactivity]]></title>
-            <link>https://tachibana-shin.github.io/posts/watch-with-reactivity</link>
-            <guid>https://tachibana-shin.github.io/posts/watch-with-reactivity</guid>
+            <link>https://shin.is-a.dev/posts/watch-with-reactivity</link>
+            <guid>https://shin.is-a.dev/posts/watch-with-reactivity</guid>
             <pubDate>Fri, 18 Sep 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[A brief intro of how it works and a guide to implementing the (missing) `watch` on your own.]]></description>
             <content:encoded><![CDATA[<p>[[toc]]</p>
@@ -938,8 +938,8 @@ yarn add <a href='https://github.com/antfu/vue-reactivity-watch' target='_blank'
         </item>
         <item>
             <title><![CDATA[Type Inferencing in Vue]]></title>
-            <link>https://tachibana-shin.github.io/posts/type-inferencing-in-vue</link>
-            <guid>https://tachibana-shin.github.io/posts/type-inferencing-in-vue</guid>
+            <link>https://shin.is-a.dev/posts/type-inferencing-in-vue</link>
+            <guid>https://shin.is-a.dev/posts/type-inferencing-in-vue</guid>
             <pubDate>Sun, 28 Jun 2020 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>[[toc]]</p>
 <p>As you may or may not know, I am working on preparing to release the v1.0 version for <a href="https://github.com/vuejs/composition-api">@vue/composition-api</a> recently. One of the current problems is that the type inference does not play well <a href="https://github.com/vuejs/composition-api/issues/338">#338</a>. So I get a chance to have a deeper look at <a href="https://github.com/vuejs/composition-api">vue-next</a>'s type implementations. I will tell you what I learned and how magic works in Vue.</p>
@@ -1085,8 +1085,8 @@ define({
         </item>
         <item>
             <title><![CDATA[Domain Email]]></title>
-            <link>https://tachibana-shin.github.io/posts/domain-email</link>
-            <guid>https://tachibana-shin.github.io/posts/domain-email</guid>
+            <link>https://shin.is-a.dev/posts/domain-email</link>
+            <guid>https://shin.is-a.dev/posts/domain-email</guid>
             <pubDate>Wed, 17 Jun 2020 16:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>Saw <a href="https://twitter.com/youyuxi/status/1272932071749619712">a tweet from Evan You</a> about the <a href="https://hey.com/">hey.com</a> mail service recently. I got interested in having a short and nice email address. My current one in Hotmail is just too long to even being spell out in talk. <code>hey.com</code> looks very nice but $99/year is not a very good deal to me. I decide to use my own domain for receiving emails.</p>
 <p>I did this a couple years ago for another domain, I kinda remember an open-source tool allowing forwarding emails by just adding DNS record. I took some time to search for it but I didn't find the page matches with my memory. I went GitHub to search in my stared projects, it turns out the tool now becomes and Freemium SaaS <a href="https://forwardemail.net/">forwardemail.net</a> with a fresh new logo and website design that I can't even recognize it.</p>

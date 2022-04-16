@@ -1,4 +1,4 @@
-Sitemap: https://tachibana-shin.github.io/sitemap.xml
+Sitemap: https://shin.is-a.dev/sitemap.xml
 
 User-agent: *
 Disallow:
