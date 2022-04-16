@@ -13,7 +13,7 @@ const markdown = MarkdownIt({
   linkify: true,
 });
 
-const DOMAIN = "https://tachibana-shin.github.io";
+const DOMAIN = "https://shin.is-a.dev";
 
 // sitemap.write({ url: "/page-1/", changefreq: "daily", priority: 0.3 });
 // sitemap.write("/page-2");

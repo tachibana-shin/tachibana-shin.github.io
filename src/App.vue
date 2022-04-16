@@ -12,7 +12,7 @@ useHead({
     { property: "og:title", content: "Tachibana Shin (たちばなしん)" },
     {
       property: "og:image",
-      content: "https://tachibana-shin.github.io/avatar-flat.jpg",
+      content: "https://shin.is-a.dev/avatar-flat.jpg",
     },
     {
       name: "description",

@@ -5,7 +5,7 @@ subtitle: Quick notes / tips
 description: Quick notes / tips
 ---
 
-[RSS Feed](https://tachibana-shin.github.io/notes/feed.xml)
+[RSS Feed](https://shin.is-a.dev/notes/feed.xml)
 
 
 <article>

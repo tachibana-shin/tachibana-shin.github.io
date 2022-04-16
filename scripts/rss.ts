@@ -6,7 +6,7 @@ import MarkdownIt from "markdown-it";
 import { Feed, FeedOptions, Item } from "feed";
 import { slugify } from "./slugify";
 
-const DOMAIN = "https://tachibana-shin.github.io";
+const DOMAIN = "https://shin.is-a.dev";
 const AUTHOR = {
   name: "Tachibana Shin",
   email: "thanhnguyennguyen1995@gmail.com",
@@ -29,13 +29,13 @@ async function buildBlogRSS() {
   const options = {
     title: "Tachibana Shin (たちばなしん)",
     description: "Tachibana Shin (たちばなしん)' Blog",
-    id: "https://tachibana-shin.github.io/",
-    link: "https://tachibana-shin.github.io/",
+    id: "https://shin.is-a.dev/",
+    link: "https://shin.is-a.dev/",
     copyright: `MIT ${new Date().getFullYear()} © Tachibana Shin (たちばなしん)`,
     feedLinks: {
-      json: "https://tachibana-shin.github.io/feed.json",
-      atom: "https://tachibana-shin.github.io/feed.atom",
-      rss: "https://tachibana-shin.github.io/feed.xml",
+      json: "https://shin.is-a.dev/feed.json",
+      atom: "https://shin.is-a.dev/feed.atom",
+      rss: "https://shin.is-a.dev/feed.xml",
     },
   };
   const posts: any[] = (
@@ -76,13 +76,13 @@ async function buildNotesRSS() {
   const options = {
     title: "Tachibana Shin (たちばなしん)'s Notes",
     description: "Tachibana Shin (たちばなしん)'s Notes",
-    id: "https://tachibana-shin.github.io/notes",
-    link: "https://tachibana-shin.github.io/notes",
+    id: "https://shin.is-a.dev/notes",
+    link: "https://shin.is-a.dev/notes",
     copyright: `MIT ${new Date().getFullYear()} © Tachibana Shin (たちばなしん)`,
     feedLinks: {
-      json: "https://tachibana-shin.github.io/notes/feed.json",
-      atom: "https://tachibana-shin.github.io/notes/feed.atom",
-      rss: "https://tachibana-shin.github.io/notes/feed.xml",
+      json: "https://shin.is-a.dev/notes/feed.json",
+      atom: "https://shin.is-a.dev/notes/feed.atom",
+      rss: "https://shin.is-a.dev/notes/feed.xml",
     },
   };
   const noteMatches = raw.matchAll(/<article>(.*?)<\/article>/gms);
@@ -118,8 +118,8 @@ async function buildNotesRSS() {
 
 async function writeFeed(name: string, options: FeedOptions, items: Item[]) {
   options.author = AUTHOR;
-  options.image = "https://tachibana-shin.github.io/avatar-flat.jpg";
-  options.favicon = "https://tachibana-shin.github.io/avatar.png";
+  options.image = "https://shin.is-a.dev/avatar-flat.jpg";
+  options.favicon = "https://shin.is-a.dev/avatar.png";
 
   const feed = new Feed(options);
 
