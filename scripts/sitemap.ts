@@ -78,7 +78,7 @@ async function scanPages() {
             news: i.startsWith("pages/posts/") && {
               publication: {
                 name: data.title,
-                language: data.lang || "en",
+                language: data.lang === "auto" ? void 0 : (data.lang ?? "en"),
               },
               genres: "Blog",
               publication_date: dayjs(data.date).format("YYYY-MM-DD"),
