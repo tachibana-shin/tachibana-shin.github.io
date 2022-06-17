@@ -32,6 +32,12 @@ import "prismjs/components/prism-javadoclike";
 import "prismjs/components/prism-javadoc";
 import "prismjs/components/prism-jsdoc";
 
+import { execSync } from "child_process"
+
+function getCtimeFile(filepath: string): Date {
+  return execSync(`git log -1 --format="%ad" -- "${filepath}"`).toString()
+}
+
 const config: UserConfig = {
   resolve: {
     alias: [{ find: "/~/", replacement: `${resolve(__dirname, "src")}/` }],
@@ -79,7 +85,13 @@ const config: UserConfig = {
         if (!path.includes("projects.md")) {
           const md = fs.readFileSync(path, "utf-8");
           const { data } = matter(md);
-          route.meta = Object.assign(route.meta || {}, { frontmatter: data });
+          route.meta = Object.assign(route.meta || {}, {
+            frontmatter: data
+          });
+
+          if (!route.meta.frontmatter.date) {
+            route.meta.frontmatter.date = getCtimeFile(path)
+          }
         }
 
         return route;

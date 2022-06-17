@@ -10,9 +10,9 @@
         <div class="title text-lg">
           {{ route.meta.frontmatter.title }}
           <sup
-            v-if="route.meta.frontmatter.lang === 'zh'"
+            v-if="route.meta.frontmatter.lang === 'jp'"
             class="text-xs border border-current rounded px-1 pb-0.2"
-            >中文</sup
+            >日本</sup
           >
         </div>
         <div class="time opacity-50 text-sm -mt-1">
@@ -37,12 +37,11 @@ const props = defineProps<{
 const router = useRouter();
 const routes = router
   .getRoutes()
-  .filter((i) => i.path.startsWith("/posts") && i.meta.frontmatter.date)
+  .filter((i) => i.path.startsWith("/posts"))
   .sort(
     (a, b) =>
       +new Date(b.meta.frontmatter.date) - +new Date(a.meta.frontmatter.date)
   );
-
 const posts = computed(() =>
   routes.filter(
     (i) => !i.path.endsWith(".html") && i.meta.frontmatter.type === props.type
