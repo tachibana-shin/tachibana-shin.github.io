@@ -26,7 +26,7 @@
   "src/App.vue": [],
   "src/main.ts": [],
   "index.html": [],
-  "assets/app.d185ac01.js-unocss-hash.css": [],
+  "assets/app.569dbe05.js-unocss-hash.css": [],
   "\u0000commonjsHelpers.js": [
     "/assets/vendor.4d5da1af.js"
   ],
@@ -124,27 +124,27 @@
     "/assets/vendor.4d5da1af.js"
   ],
   "pages/talks.md": [
-    "/assets/talks.22cb11a9.js",
+    "/assets/talks.d6dc77c5.js",
     "/assets/talks.ae41bef8.css"
   ],
-  "assets/talks.22cb11a9.js-unocss-hash.css": [
-    "/assets/talks.22cb11a9.js",
+  "assets/talks.d6dc77c5.js-unocss-hash.css": [
+    "/assets/talks.d6dc77c5.js",
     "/assets/talks.ae41bef8.css"
   ],
   "src/components/Post.vue": [
-    "/assets/Post.83174ce6.js",
+    "/assets/Post.c9b7f92a.js",
     "/assets/Post.c61033cd.css"
   ],
-  "assets/Post.83174ce6.js-unocss-hash.css": [
-    "/assets/Post.83174ce6.js",
+  "assets/Post.c9b7f92a.js-unocss-hash.css": [
+    "/assets/Post.c9b7f92a.js",
     "/assets/Post.c61033cd.css"
   ],
   "src/components/ListPosts.vue": [
-    "/assets/ListPosts.c82a2c6e.js",
+    "/assets/ListPosts.3f270dec.js",
     "/assets/ListPosts.e77c1334.css"
   ],
-  "assets/ListPosts.c82a2c6e.js-unocss-hash.css": [
-    "/assets/ListPosts.c82a2c6e.js",
+  "assets/ListPosts.3f270dec.js-unocss-hash.css": [
+    "/assets/ListPosts.3f270dec.js",
     "/assets/ListPosts.e77c1334.css"
   ],
   "src/components/Plum.vue": [
@@ -156,122 +156,130 @@
     "/assets/Plum.fbda5362.css"
   ],
   "src/components/ListProjects.vue?vue&type=style&index=0&scoped=true&lang.scss": [
-    "/assets/projects.a939b424.js",
+    "/assets/projects.724d39c0.js",
     "/assets/projects.0c1ef9d0.css"
   ],
   "src/components/ListProjects.vue": [
-    "/assets/projects.a939b424.js",
+    "/assets/projects.724d39c0.js",
     "/assets/projects.0c1ef9d0.css"
   ],
   "pages/projects.md": [
-    "/assets/projects.a939b424.js",
+    "/assets/projects.724d39c0.js",
     "/assets/projects.0c1ef9d0.css"
   ],
-  "assets/projects.a939b424.js-unocss-hash.css": [
-    "/assets/projects.a939b424.js",
+  "assets/projects.724d39c0.js-unocss-hash.css": [
+    "/assets/projects.724d39c0.js",
     "/assets/projects.0c1ef9d0.css"
   ],
   "pages/posts/watch-with-reactivity.md": [
-    "/assets/watch-with-reactivity.d58dc44a.js",
+    "/assets/watch-with-reactivity.cffd5b1c.js",
     "/assets/watch-with-reactivity.e3de2f37.css"
   ],
-  "assets/watch-with-reactivity.d58dc44a.js-unocss-hash.css": [
-    "/assets/watch-with-reactivity.d58dc44a.js",
+  "assets/watch-with-reactivity.cffd5b1c.js-unocss-hash.css": [
+    "/assets/watch-with-reactivity.cffd5b1c.js",
     "/assets/watch-with-reactivity.e3de2f37.css"
   ],
   "pages/posts/type-inferencing-in-vue.md": [
-    "/assets/type-inferencing-in-vue.1011b52b.js",
+    "/assets/type-inferencing-in-vue.279088dc.js",
     "/assets/type-inferencing-in-vue.60932671.css"
   ],
-  "assets/type-inferencing-in-vue.1011b52b.js-unocss-hash.css": [
-    "/assets/type-inferencing-in-vue.1011b52b.js",
+  "assets/type-inferencing-in-vue.279088dc.js-unocss-hash.css": [
+    "/assets/type-inferencing-in-vue.279088dc.js",
     "/assets/type-inferencing-in-vue.60932671.css"
   ],
   "pages/posts/rewrite-in-vite.md": [
-    "/assets/rewrite-in-vite.4bd28a1d.js",
+    "/assets/rewrite-in-vite.a82ba24f.js",
     "/assets/rewrite-in-vite.8e9cc18c.css"
   ],
-  "assets/rewrite-in-vite.4bd28a1d.js-unocss-hash.css": [
-    "/assets/rewrite-in-vite.4bd28a1d.js",
+  "assets/rewrite-in-vite.a82ba24f.js-unocss-hash.css": [
+    "/assets/rewrite-in-vite.a82ba24f.js",
     "/assets/rewrite-in-vite.8e9cc18c.css"
   ],
   "pages/posts/hello-talks.md": [
-    "/assets/hello-talks.ad60642f.js"
+    "/assets/hello-talks.34d55fea.js"
   ],
   "pages/posts/hello.md": [
-    "/assets/hello.6673d567.js"
+    "/assets/hello.59919944.js"
   ],
   "pages/posts/get-ip-with-js.md": [
-    "/assets/get-ip-with-js.9ef9d66d.js"
+    "/assets/get-ip-with-js.f4ea44c3.js"
   ],
   "pages/posts/domain-email.md": [
-    "/assets/domain-email.7ea93d0b.js"
+    "/assets/domain-email.9e0c5324.js"
+  ],
+  "pages/posts/crack-voicein-extension.md": [
+    "/assets/crack-voicein-extension.5a9e01f8.js",
+    "/assets/crack-voicein-extension.1e797cbf.css"
+  ],
+  "assets/crack-voicein-extension.5a9e01f8.js-unocss-hash.css": [
+    "/assets/crack-voicein-extension.5a9e01f8.js",
+    "/assets/crack-voicein-extension.1e797cbf.css"
   ],
   "src/components/slides/Marker.vue": [
-    "/assets/composable-vue-vueday-2021.5c668ca4.js",
+    "/assets/composable-vue-vueday-2021.cb45ba67.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "src/components/slides/MarkerTips.vue": [
-    "/assets/composable-vue-vueday-2021.5c668ca4.js",
+    "/assets/composable-vue-vueday-2021.cb45ba67.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "src/components/slides/MarkerPattern.vue": [
-    "/assets/composable-vue-vueday-2021.5c668ca4.js",
+    "/assets/composable-vue-vueday-2021.cb45ba67.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "src/components/slides/VueUseFn.vue": [
-    "/assets/composable-vue-vueday-2021.5c668ca4.js",
+    "/assets/composable-vue-vueday-2021.cb45ba67.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "~icons/carbon/sun": [
-    "/assets/composable-vue-vueday-2021.5c668ca4.js",
+    "/assets/composable-vue-vueday-2021.cb45ba67.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "~icons/carbon/moon": [
-    "/assets/composable-vue-vueday-2021.5c668ca4.js",
+    "/assets/composable-vue-vueday-2021.cb45ba67.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "src/components/slides/DarkToggleButton.vue": [
-    "/assets/composable-vue-vueday-2021.5c668ca4.js",
+    "/assets/composable-vue-vueday-2021.cb45ba67.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "src/components/slides/MarkerCore.vue": [
-    "/assets/composable-vue-vueday-2021.5c668ca4.js",
+    "/assets/composable-vue-vueday-2021.cb45ba67.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "~icons/carbon/logo-github": [
-    "/assets/composable-vue-vueday-2021.5c668ca4.js",
+    "/assets/composable-vue-vueday-2021.cb45ba67.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "pages/posts/composable-vue-vueday-2021.md": [
-    "/assets/composable-vue-vueday-2021.5c668ca4.js",
+    "/assets/composable-vue-vueday-2021.cb45ba67.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
-  "assets/composable-vue-vueday-2021.5c668ca4.js-unocss-hash.css": [
-    "/assets/composable-vue-vueday-2021.5c668ca4.js",
+  "assets/composable-vue-vueday-2021.cb45ba67.js-unocss-hash.css": [
+    "/assets/composable-vue-vueday-2021.cb45ba67.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "pages/posts/anime-subarashi.md": [
-    "/assets/anime-subarashi.117f7d78.js"
+    "/assets/anime-subarashi.36ec1c58.js"
   ],
   "pages/posts/index.md": [
-    "/assets/index.60ab55ba.js",
+    "/assets/index.010aee9d.js",
     "/assets/talks.ae41bef8.css"
   ],
-  "assets/index.60ab55ba.js-unocss-hash.css": [
-    "/assets/index.60ab55ba.js",
+  "assets/index.010aee9d.js-unocss-hash.css": [
+    "/assets/index.010aee9d.js",
     "/assets/talks.ae41bef8.css"
   ],
   "pages/notes.md": [
-    "/assets/notes.1601d97d.js"
+    "/assets/notes.a3dc3d90.js"
   ],
   "pages/bookmarks.md": [
-    "/assets/bookmarks.41c07eb1.js"
+    "/assets/bookmarks.ac1f8424.js"
   ],
   "pages/index.md": [
-    "/assets/index.30901bc4.js"
+    "/assets/index.c0603d26.js"
   ],
   "pages/[...404].md": [
-    "/assets/_...404_.68d9c06d.js"
+    "/assets/_...404_.20eb7447.js"
   ]
 }
