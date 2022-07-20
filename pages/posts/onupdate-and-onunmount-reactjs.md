@@ -4,7 +4,7 @@ title: onUpdate and onUnmount in ReactJS hooks.
 
 `onUpdate` in Reactjs hooks:
 
-```ts
+```tsx
 import { useEffect } from "react"
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
 
 `onUnmount` in Reactjs hooks:
 
-```ts
+```tsx
 import { useEffect } from "react"
 
 function App() {
