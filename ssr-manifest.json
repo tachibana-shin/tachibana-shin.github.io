@@ -44,167 +44,170 @@
   "src/App.vue": [],
   "src/main.ts": [],
   "index.html": [],
-  "assets/app.356736b6.js-unocss-hash.css": [],
+  "assets/app.8e40896a.js-unocss-hash.css": [],
   "pages/talks.md": [
-    "/assets/talks.20e29813.js",
+    "/assets/talks.1523b4c8.js",
     "/assets/talks.ae41bef8.css"
   ],
-  "assets/talks.20e29813.js-unocss-hash.css": [
-    "/assets/talks.20e29813.js",
+  "assets/talks.1523b4c8.js-unocss-hash.css": [
+    "/assets/talks.1523b4c8.js",
     "/assets/talks.ae41bef8.css"
   ],
   "src/components/Post.vue": [
-    "/assets/Post.1261850f.js",
+    "/assets/Post.684a5705.js",
     "/assets/Post.c61033cd.css"
   ],
-  "assets/Post.1261850f.js-unocss-hash.css": [
-    "/assets/Post.1261850f.js",
+  "assets/Post.684a5705.js-unocss-hash.css": [
+    "/assets/Post.684a5705.js",
     "/assets/Post.c61033cd.css"
   ],
   "src/components/ListPosts.vue": [
-    "/assets/ListPosts.84a30c11.js",
+    "/assets/ListPosts.4bbbfb36.js",
     "/assets/ListPosts.e77c1334.css"
   ],
-  "assets/ListPosts.84a30c11.js-unocss-hash.css": [
-    "/assets/ListPosts.84a30c11.js",
+  "assets/ListPosts.4bbbfb36.js-unocss-hash.css": [
+    "/assets/ListPosts.4bbbfb36.js",
     "/assets/ListPosts.e77c1334.css"
   ],
   "src/components/Plum.vue": [
-    "/assets/Plum.f4de77ce.js",
+    "/assets/Plum.7382f4c4.js",
     "/assets/Plum.fbda5362.css"
   ],
-  "assets/Plum.f4de77ce.js-unocss-hash.css": [
-    "/assets/Plum.f4de77ce.js",
+  "assets/Plum.7382f4c4.js-unocss-hash.css": [
+    "/assets/Plum.7382f4c4.js",
     "/assets/Plum.fbda5362.css"
   ],
   "src/components/ListProjects.vue?vue&type=style&index=0&scoped=true&lang.scss": [
-    "/assets/projects.a64188a0.js",
+    "/assets/projects.292fcc3b.js",
     "/assets/projects.3e7d732f.css"
   ],
   "src/components/ListProjects.vue": [
-    "/assets/projects.a64188a0.js",
+    "/assets/projects.292fcc3b.js",
     "/assets/projects.3e7d732f.css"
   ],
   "pages/projects.md": [
-    "/assets/projects.a64188a0.js",
+    "/assets/projects.292fcc3b.js",
     "/assets/projects.3e7d732f.css"
   ],
-  "assets/projects.a64188a0.js-unocss-hash.css": [
-    "/assets/projects.a64188a0.js",
+  "assets/projects.292fcc3b.js-unocss-hash.css": [
+    "/assets/projects.292fcc3b.js",
     "/assets/projects.3e7d732f.css"
   ],
   "pages/posts/watch-with-reactivity.md": [
-    "/assets/watch-with-reactivity.1cb41b92.js",
+    "/assets/watch-with-reactivity.5beb16aa.js",
     "/assets/watch-with-reactivity.e3de2f37.css"
   ],
-  "assets/watch-with-reactivity.1cb41b92.js-unocss-hash.css": [
-    "/assets/watch-with-reactivity.1cb41b92.js",
+  "assets/watch-with-reactivity.5beb16aa.js-unocss-hash.css": [
+    "/assets/watch-with-reactivity.5beb16aa.js",
     "/assets/watch-with-reactivity.e3de2f37.css"
   ],
   "pages/posts/type-inferencing-in-vue.md": [
-    "/assets/type-inferencing-in-vue.78d39363.js",
+    "/assets/type-inferencing-in-vue.728e0e82.js",
     "/assets/type-inferencing-in-vue.60932671.css"
   ],
-  "assets/type-inferencing-in-vue.78d39363.js-unocss-hash.css": [
-    "/assets/type-inferencing-in-vue.78d39363.js",
+  "assets/type-inferencing-in-vue.728e0e82.js-unocss-hash.css": [
+    "/assets/type-inferencing-in-vue.728e0e82.js",
     "/assets/type-inferencing-in-vue.60932671.css"
   ],
   "pages/posts/rewrite-in-vite.md": [
-    "/assets/rewrite-in-vite.02cbe023.js",
+    "/assets/rewrite-in-vite.6440a9fa.js",
     "/assets/rewrite-in-vite.8e9cc18c.css"
   ],
-  "assets/rewrite-in-vite.02cbe023.js-unocss-hash.css": [
-    "/assets/rewrite-in-vite.02cbe023.js",
+  "assets/rewrite-in-vite.6440a9fa.js-unocss-hash.css": [
+    "/assets/rewrite-in-vite.6440a9fa.js",
     "/assets/rewrite-in-vite.8e9cc18c.css"
+  ],
+  "pages/posts/register-domain-dot-tk.md": [
+    "/assets/register-domain-dot-tk.c771400c.js"
   ],
   "pages/posts/onupdate-and-onunmount-reactjs.md": [
-    "/assets/onupdate-and-onunmount-reactjs.2e67c03f.js"
+    "/assets/onupdate-and-onunmount-reactjs.cb86a17a.js"
   ],
   "pages/posts/hello-talks.md": [
-    "/assets/hello-talks.332548c5.js"
+    "/assets/hello-talks.7d8b2451.js"
   ],
   "pages/posts/hello.md": [
-    "/assets/hello.e0e14b56.js"
+    "/assets/hello.64cf425d.js"
   ],
   "pages/posts/get-ip-with-js.md": [
-    "/assets/get-ip-with-js.6fa50c8d.js"
+    "/assets/get-ip-with-js.9a9e4e91.js"
   ],
   "pages/posts/domain-email.md": [
-    "/assets/domain-email.b1c8f434.js"
+    "/assets/domain-email.8c67860e.js"
   ],
   "pages/posts/crack-voicein-extension.md": [
-    "/assets/crack-voicein-extension.b84ac323.js",
+    "/assets/crack-voicein-extension.6225bd32.js",
     "/assets/crack-voicein-extension.1e797cbf.css"
   ],
-  "assets/crack-voicein-extension.b84ac323.js-unocss-hash.css": [
-    "/assets/crack-voicein-extension.b84ac323.js",
+  "assets/crack-voicein-extension.6225bd32.js-unocss-hash.css": [
+    "/assets/crack-voicein-extension.6225bd32.js",
     "/assets/crack-voicein-extension.1e797cbf.css"
   ],
   "src/components/slides/Marker.vue": [
-    "/assets/composable-vue-vueday-2021.3d14fb60.js",
+    "/assets/composable-vue-vueday-2021.99762bec.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "src/components/slides/MarkerTips.vue": [
-    "/assets/composable-vue-vueday-2021.3d14fb60.js",
+    "/assets/composable-vue-vueday-2021.99762bec.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "src/components/slides/MarkerPattern.vue": [
-    "/assets/composable-vue-vueday-2021.3d14fb60.js",
+    "/assets/composable-vue-vueday-2021.99762bec.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "src/components/slides/VueUseFn.vue": [
-    "/assets/composable-vue-vueday-2021.3d14fb60.js",
+    "/assets/composable-vue-vueday-2021.99762bec.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "~icons/carbon/sun": [
-    "/assets/composable-vue-vueday-2021.3d14fb60.js",
+    "/assets/composable-vue-vueday-2021.99762bec.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "~icons/carbon/moon": [
-    "/assets/composable-vue-vueday-2021.3d14fb60.js",
+    "/assets/composable-vue-vueday-2021.99762bec.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "src/components/slides/DarkToggleButton.vue": [
-    "/assets/composable-vue-vueday-2021.3d14fb60.js",
+    "/assets/composable-vue-vueday-2021.99762bec.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "src/components/slides/MarkerCore.vue": [
-    "/assets/composable-vue-vueday-2021.3d14fb60.js",
+    "/assets/composable-vue-vueday-2021.99762bec.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "~icons/carbon/logo-github": [
-    "/assets/composable-vue-vueday-2021.3d14fb60.js",
+    "/assets/composable-vue-vueday-2021.99762bec.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "pages/posts/composable-vue-vueday-2021.md": [
-    "/assets/composable-vue-vueday-2021.3d14fb60.js",
+    "/assets/composable-vue-vueday-2021.99762bec.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
-  "assets/composable-vue-vueday-2021.3d14fb60.js-unocss-hash.css": [
-    "/assets/composable-vue-vueday-2021.3d14fb60.js",
+  "assets/composable-vue-vueday-2021.99762bec.js-unocss-hash.css": [
+    "/assets/composable-vue-vueday-2021.99762bec.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "pages/posts/anime-subarashi.md": [
-    "/assets/anime-subarashi.df36124a.js"
+    "/assets/anime-subarashi.bc89cdbb.js"
   ],
   "pages/posts/index.md": [
-    "/assets/index.a5fdf2cc.js",
+    "/assets/index.7abdac1d.js",
     "/assets/talks.ae41bef8.css"
   ],
-  "assets/index.a5fdf2cc.js-unocss-hash.css": [
-    "/assets/index.a5fdf2cc.js",
+  "assets/index.7abdac1d.js-unocss-hash.css": [
+    "/assets/index.7abdac1d.js",
     "/assets/talks.ae41bef8.css"
   ],
   "pages/notes.md": [
-    "/assets/notes.6b7e9e09.js"
+    "/assets/notes.54bf41df.js"
   ],
   "pages/bookmarks.md": [
-    "/assets/bookmarks.9841ec01.js"
+    "/assets/bookmarks.a5c79c24.js"
   ],
   "pages/index.md": [
-    "/assets/index.c329a460.js"
+    "/assets/index.fa589df0.js"
   ],
   "pages/[...404].md": [
-    "/assets/_...404_.27278bb8.js"
+    "/assets/_...404_.1489701f.js"
   ]
 }
