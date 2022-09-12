@@ -6,6 +6,7 @@ import MarkdownIt from "markdown-it";
 import { JSDOM } from "jsdom";
 import dayjs from "dayjs";
 import path from "path";
+import { execSync } from "child_process";
 
 const markdown = MarkdownIt({
   html: true,
@@ -17,6 +18,14 @@ const DOMAIN = "https://shin.is-a.dev";
 
 // sitemap.write({ url: "/page-1/", changefreq: "daily", priority: 0.3 });
 // sitemap.write("/page-2");
+
+function getTimeCommitFile(path: string): Date {
+  return new Date(
+    execSync(
+      `git log --follow --format=%ad --date default "${path}" | tail -1`
+    ).toString()
+  );
+}
 
 async function scanPages() {
   const files = await fg("pages/**/*.md");
@@ -30,6 +39,8 @@ async function scanPages() {
         .map(async (i) => {
           const raw = await fs.readFile(i, "utf-8");
           const { data, content } = matter(raw);
+
+          if (!data.title) throw new Error(`File ${i} not exists title.`);
 
           const html = markdown
             .render(content)
@@ -78,10 +89,13 @@ async function scanPages() {
             news: i.startsWith("pages/posts/") && {
               publication: {
                 name: data.title,
-                language: data.lang === "auto" ? void 0 : (data.lang ?? "en"),
+                language:
+                  (data.lang === "auto" ? undefined : data.lang) ?? "en",
               },
               genres: "Blog",
-              publication_date: dayjs(data.date).format("YYYY-MM-DD"),
+              publication_date: dayjs(data.date ?? getTimeCommitFile(i)).format(
+                "YYYY-MM-DD"
+              ),
               title: data.title,
             },
           };

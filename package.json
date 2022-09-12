@@ -1,7 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "build": "cross-env NODE_ENV=production vite-ssg build && esno ./scripts/rss.ts && esno ./scripts/sitemap.ts && cp _dist_redirects dist/_redirects",
+    "sitemap": "esno ./scripts/sitemap.ts",
+    "build": "cross-env NODE_ENV=production vite-ssg build && esno ./scripts/rss.ts && pnpm sitemap && cp _dist_redirects dist/_redirects",
     "dev": "vite",
     "preview": "vite preview",
     "redirects": "esno scripts/redirects.ts"
