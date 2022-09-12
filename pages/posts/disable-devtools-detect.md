@@ -1,3 +1,7 @@
+---
+title: "Disable devtools detect"
+---
+
 # Disable detect devtools
 
 ## devtoolsDetector
