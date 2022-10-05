@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shin.is-a.dev/</id>
     <title>Tachibana Shin (たちばなしん)</title>
-    <updated>2022-10-05T13:55:33.306Z</updated>
+    <updated>2022-10-05T13:56:48.349Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Tachibana Shin</name>
@@ -19,7 +19,7 @@
         <title type="html"><![CDATA[Get information device from JavaScript]]></title>
         <id>https://shin.is-a.dev/posts/get-ip-with-js</id>
         <link href="https://shin.is-a.dev/posts/get-ip-with-js"/>
-        <updated>2022-10-05T13:54:41.365Z</updated>
+        <updated>2022-10-05T13:55:42.899Z</updated>
         <summary type="html"><![CDATA[My site is now powered by Vite!]]></summary>
         <content type="html"><![CDATA[<p>[[toc]]</p>
 <p>You can get v4 IP info using API: <a href="http://ip-api.com/json">http://ip-api.com/json</a></p>
