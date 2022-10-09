@@ -69,3 +69,4 @@ Steps:
 4. Merge file reg fix
 5. Restart Explorer.exe in Task Manager
 6. Follow this instruction to correct errors that do not show the used space bar: https://www.partitionwizard.com/partitionmanager/disk-space-usage-bar-missing.html
+7. Fix `New` not availible in `Context Menu`: https://www.askvg.com/how-to-restore-missing-new-menuitem-in-desktop-and-explorer-context-menu/
