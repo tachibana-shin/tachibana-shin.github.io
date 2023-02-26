@@ -4,7 +4,7 @@
         <title>Tachibana Shin (たちばなしん)</title>
         <link>https://shin.is-a.dev/</link>
         <description>Tachibana Shin (たちばなしん)' Blog</description>
-        <lastBuildDate>Thu, 13 Oct 2022 22:47:43 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 26 Feb 2023 14:27:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -12,13 +12,13 @@
             <url>https://shin.is-a.dev/avatar-flat.jpg</url>
             <link>https://shin.is-a.dev/</link>
         </image>
-        <copyright>MIT 2022 © Tachibana Shin (たちばなしん)</copyright>
+        <copyright>MIT 2023 © Tachibana Shin (たちばなしん)</copyright>
         <atom:link href="https://shin.is-a.dev/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Get information device from JavaScript]]></title>
             <link>https://shin.is-a.dev/posts/get-ip-with-js</link>
             <guid>https://shin.is-a.dev/posts/get-ip-with-js</guid>
-            <pubDate>Thu, 13 Oct 2022 22:46:53 GMT</pubDate>
+            <pubDate>Sun, 26 Feb 2023 14:26:38 GMT</pubDate>
             <description><![CDATA[My site is now powered by Vite!]]></description>
             <content:encoded><![CDATA[<p>[[toc]]</p>
 <p>You can get v4 IP info using API: <a href="http://ip-api.com/json">http://ip-api.com/json</a></p>
