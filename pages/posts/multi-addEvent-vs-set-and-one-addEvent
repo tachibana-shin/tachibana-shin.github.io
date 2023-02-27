@@ -1,0 +1,43 @@
+---
+title: multiple addEventListener vs Set and single addEventListener
+---
+
+In most cases using `Set` in combination with a single call of `addEventListener` will be about 24% faster due to reduced communication requirements from core JavaScript to the browser:
+
+Setup JavaScript:
+```ts
+window.arr = new Set(new Array(100).fill(0).map(() => event => console.log(event)))
+```
+
+multiple addEventListener (3293.76 ops/s ± 10.75%)
+```ts
+const { port1, port2 } = new MessageChannel()
+port1.start()
+port2.start()
+
+window.arr.forEach(cb => port1.addEventListener("message", cb))
+
+port2.postMessage("")
+```
+
+Set and one addEventListener (17014.76 ops/s ± 19.2%)
+```ts
+const { port1, port2 } = new MessageChannel()
+port1.start()
+port2.start()
+
+port1.addEventListener("message", event => {
+	window.arr.forEach(cb => cb(event))
+})
+
+port2.postMessage("")
+```
+
+View brenchmark: https://jsbench.me/splemwqzqj/1
+
+Result
+| multiple addEventListener | Set and one addEventListener |
+| -- | --- |
+| 3293.76 ops/s ± 10.75% | 17014.76 ops/s ± 19.2% | 
+
+**Faster: ** `Set and one addEventListener`
