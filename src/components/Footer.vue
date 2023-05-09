@@ -7,7 +7,7 @@
         style="color: inherit"
         >MIT</a
       >
-      {{ new Date().getFullYear() }} © Tachibana Shin (橘しん)</span
+      {{ new Date().getFullYear() }} © Tachibana Shin (橘芯)</span
     >
     <div class="flex-auto" />
   </div>

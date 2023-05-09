@@ -27,11 +27,11 @@ async function buildBlogRSS() {
   const files = await fg("pages/posts/*.md");
 
   const options = {
-    title: "Tachibana Shin (たちばなしん)",
-    description: "Tachibana Shin (たちばなしん)' Blog",
+    title: "Tachibana Shin (橘芯)",
+    description: "Tachibana Shin (橘芯)' Blog",
     id: "https://shin.is-a.dev/",
     link: "https://shin.is-a.dev/",
-    copyright: `MIT ${new Date().getFullYear()} © Tachibana Shin (たちばなしん)`,
+    copyright: `MIT ${new Date().getFullYear()} © Tachibana Shin (橘芯)`,
     feedLinks: {
       json: "https://shin.is-a.dev/feed.json",
       atom: "https://shin.is-a.dev/feed.atom",
@@ -74,11 +74,11 @@ async function buildNotesRSS() {
   const raw = await fs.readFile("pages/notes.md", "utf-8");
 
   const options = {
-    title: "Tachibana Shin (たちばなしん)'s Notes",
-    description: "Tachibana Shin (たちばなしん)'s Notes",
+    title: "Tachibana Shin (橘芯)'s Notes",
+    description: "Tachibana Shin (橘芯)'s Notes",
     id: "https://shin.is-a.dev/notes",
     link: "https://shin.is-a.dev/notes",
-    copyright: `MIT ${new Date().getFullYear()} © Tachibana Shin (たちばなしん)`,
+    copyright: `MIT ${new Date().getFullYear()} © Tachibana Shin (橘芯)`,
     feedLinks: {
       json: "https://shin.is-a.dev/notes/feed.json",
       atom: "https://shin.is-a.dev/notes/feed.atom",

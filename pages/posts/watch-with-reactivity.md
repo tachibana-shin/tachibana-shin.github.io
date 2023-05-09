@@ -195,7 +195,7 @@ const state = reactive({
 
 watch(state, () => { console.log('changed!') }, { deep: true })
 
-state.info.name = 'Tachibana Shin (たちばなしん)'
+state.info.name = 'Tachibana Shin (橘芯)'
 // changed!
 ```
 
