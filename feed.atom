@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shin.is-a.dev/</id>
-    <title>Tachibana Shin (たちばなしん)</title>
-    <updated>2023-02-27T14:50:13.326Z</updated>
+    <title>Tachibana Shin (橘芯)</title>
+    <updated>2023-05-09T22:07:10.857Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Tachibana Shin</name>
@@ -11,15 +11,15 @@
     </author>
     <link rel="alternate" href="https://shin.is-a.dev/"/>
     <link rel="self" href="https://shin.is-a.dev/feed.atom"/>
-    <subtitle>Tachibana Shin (たちばなしん)' Blog</subtitle>
+    <subtitle>Tachibana Shin (橘芯)' Blog</subtitle>
     <logo>https://shin.is-a.dev/avatar-flat.jpg</logo>
     <icon>https://shin.is-a.dev/avatar.png</icon>
-    <rights>MIT 2023 © Tachibana Shin (たちばなしん)</rights>
+    <rights>MIT 2023 © Tachibana Shin (橘芯)</rights>
     <entry>
         <title type="html"><![CDATA[Get information device from JavaScript]]></title>
         <id>https://shin.is-a.dev/posts/get-ip-with-js</id>
         <link href="https://shin.is-a.dev/posts/get-ip-with-js"/>
-        <updated>2023-02-27T14:49:11.156Z</updated>
+        <updated>2023-05-09T22:06:07.445Z</updated>
         <summary type="html"><![CDATA[My site is now powered by Vite!]]></summary>
         <content type="html"><![CDATA[<p>[[toc]]</p>
 <p>You can get v4 IP info using API: <a href="http://ip-api.com/json">http://ip-api.com/json</a></p>
@@ -906,7 +906,7 @@ count.value = 2
 
 watch(state, () =&gt; { console.log('changed!') }, { deep: true })
 
-state.info.name = 'Tachibana Shin (たちばなしん)'
+state.info.name = 'Tachibana Shin (橘芯)'
 // changed!
 </code></pre>
 <p>To implement this feature, you need to collect the <code>track()</code> events on every nested property. We can achieve that with a <code>traverse</code> function.</p>

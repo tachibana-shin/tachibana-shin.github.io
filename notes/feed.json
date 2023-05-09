@@ -1,9 +1,9 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Tachibana Shin (たちばなしん)'s Notes",
+    "title": "Tachibana Shin (橘芯)'s Notes",
     "home_page_url": "https://shin.is-a.dev/notes",
     "feed_url": "https://shin.is-a.dev/notes/feed.json",
-    "description": "Tachibana Shin (たちばなしん)'s Notes",
+    "description": "Tachibana Shin (橘芯)'s Notes",
     "icon": "https://shin.is-a.dev/avatar-flat.jpg",
     "author": {
         "name": "Tachibana Shin",
