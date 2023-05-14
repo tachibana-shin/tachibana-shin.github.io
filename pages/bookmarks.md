@@ -11,6 +11,13 @@ subtitle: Some of my favorite websites/tools with excellent design and UX that I
 - [Tailwind](https://tailwindcss.com/)
 - [Vuesax](https://vuesax.com/)
 - [Charka](https://next.vue.chakra-ui.com/)
+- [Prime](https://primevue.org/uikit)
+- [NativeUI](https://www.naiveui.com/en-US/os-theme)
+- [OnuUI](https://onu.zyob.top)
+- [Ant](https://antdv.com/)
+- [BloomUI](https://bloomui.com/product/category/react/material-ui/)
+
+
 #### Color
 
 - [NIPPON COLORS - 日本の伝統色](https://nipponcolors.com/)
@@ -69,3 +76,8 @@ subtitle: Some of my favorite websites/tools with excellent design and UX that I
 ### Design
 
 - [Font Playground](https://play.typedetail.com/)
+
+### AI
+
+- [ZeroGPT](https://www.zerogpt.com/) - Check if the text is GPT generated or not
+- [Human or Not](https://www.humanornot.ai/) - A simple game that challenges you with the Turing algorithm
