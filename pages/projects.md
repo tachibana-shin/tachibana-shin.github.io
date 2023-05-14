@@ -9,6 +9,11 @@ projects:
       link: "https://github.com/tachibana-shin/workercom"
       desc: "Rewritten and improved communication issues from Comlink"
       icon: "i-carbon-plug"
+    - name: "@fcanvas/communicate"
+      link: "https://npmjs.com/package/@fcanvas/communicate"
+      desc: "Simple communcate with like MessagePort"
+      icon: "i-carbon-plug"
+      
   Library:
     - name: "fcanvas"
       link: "https://github.com/tachibana-shin/fcanvas"
@@ -19,6 +24,11 @@ projects:
       link: "https://github.com/wecde"
       desc: "App code editor for mobile"
       icon: "i-bx-bx-code-alt"
+    - name: "AnimeVsub"
+      link: "https://github.com/anime-vsub"
+      desc: "App for Androd and desktop watch Anime free and no ads"
+      icon: "i-bx-bx-code-alt"
+      
   iOS Tweak Open Source:
     - name: "app-clone-cmd"
       link: "https://github.com/tachibana-shin/app-clone-command"
