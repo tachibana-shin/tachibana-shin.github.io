@@ -44,176 +44,179 @@
   "src/App.vue": [],
   "src/main.ts": [],
   "index.html": [],
-  "assets/app.2dfc9dc9.js-unocss-hash.css": [],
+  "assets/app.0d75e326.js-unocss-hash.css": [],
   "pages/talks.md": [
-    "/assets/talks.0b427efa.js",
+    "/assets/talks.96a891d8.js",
     "/assets/talks.ae41bef8.css"
   ],
-  "assets/talks.0b427efa.js-unocss-hash.css": [
-    "/assets/talks.0b427efa.js",
+  "assets/talks.96a891d8.js-unocss-hash.css": [
+    "/assets/talks.96a891d8.js",
     "/assets/talks.ae41bef8.css"
   ],
   "src/components/Post.vue": [
-    "/assets/Post.aba01218.js",
+    "/assets/Post.618b653a.js",
     "/assets/Post.c61033cd.css"
   ],
-  "assets/Post.aba01218.js-unocss-hash.css": [
-    "/assets/Post.aba01218.js",
+  "assets/Post.618b653a.js-unocss-hash.css": [
+    "/assets/Post.618b653a.js",
     "/assets/Post.c61033cd.css"
   ],
   "src/components/ListPosts.vue": [
-    "/assets/ListPosts.e12ebc28.js",
+    "/assets/ListPosts.dc633f22.js",
     "/assets/ListPosts.e77c1334.css"
   ],
-  "assets/ListPosts.e12ebc28.js-unocss-hash.css": [
-    "/assets/ListPosts.e12ebc28.js",
+  "assets/ListPosts.dc633f22.js-unocss-hash.css": [
+    "/assets/ListPosts.dc633f22.js",
     "/assets/ListPosts.e77c1334.css"
   ],
   "src/components/Plum.vue": [
-    "/assets/Plum.b817e87f.js",
+    "/assets/Plum.cb9bea36.js",
     "/assets/Plum.fbda5362.css"
   ],
-  "assets/Plum.b817e87f.js-unocss-hash.css": [
-    "/assets/Plum.b817e87f.js",
+  "assets/Plum.cb9bea36.js-unocss-hash.css": [
+    "/assets/Plum.cb9bea36.js",
     "/assets/Plum.fbda5362.css"
   ],
   "src/components/ListProjects.vue?vue&type=style&index=0&scoped=true&lang.scss": [
-    "/assets/projects.6748c8ed.js",
+    "/assets/projects.1a4bfbe6.js",
     "/assets/projects.3e7d732f.css"
   ],
   "src/components/ListProjects.vue": [
-    "/assets/projects.6748c8ed.js",
+    "/assets/projects.1a4bfbe6.js",
     "/assets/projects.3e7d732f.css"
   ],
   "pages/projects.md": [
-    "/assets/projects.6748c8ed.js",
+    "/assets/projects.1a4bfbe6.js",
     "/assets/projects.3e7d732f.css"
   ],
-  "assets/projects.6748c8ed.js-unocss-hash.css": [
-    "/assets/projects.6748c8ed.js",
+  "assets/projects.1a4bfbe6.js-unocss-hash.css": [
+    "/assets/projects.1a4bfbe6.js",
     "/assets/projects.3e7d732f.css"
   ],
   "pages/posts/watch-with-reactivity.md": [
-    "/assets/watch-with-reactivity.f4511835.js",
+    "/assets/watch-with-reactivity.c34a4ab9.js",
     "/assets/watch-with-reactivity.e3de2f37.css"
   ],
-  "assets/watch-with-reactivity.f4511835.js-unocss-hash.css": [
-    "/assets/watch-with-reactivity.f4511835.js",
+  "assets/watch-with-reactivity.c34a4ab9.js-unocss-hash.css": [
+    "/assets/watch-with-reactivity.c34a4ab9.js",
     "/assets/watch-with-reactivity.e3de2f37.css"
   ],
   "pages/posts/type-inferencing-in-vue.md": [
-    "/assets/type-inferencing-in-vue.d14d95e3.js",
+    "/assets/type-inferencing-in-vue.efd25b9e.js",
     "/assets/type-inferencing-in-vue.60932671.css"
   ],
-  "assets/type-inferencing-in-vue.d14d95e3.js-unocss-hash.css": [
-    "/assets/type-inferencing-in-vue.d14d95e3.js",
+  "assets/type-inferencing-in-vue.efd25b9e.js-unocss-hash.css": [
+    "/assets/type-inferencing-in-vue.efd25b9e.js",
     "/assets/type-inferencing-in-vue.60932671.css"
   ],
   "pages/posts/rewrite-in-vite.md": [
-    "/assets/rewrite-in-vite.26b06116.js",
+    "/assets/rewrite-in-vite.22ab293c.js",
     "/assets/rewrite-in-vite.8e9cc18c.css"
   ],
-  "assets/rewrite-in-vite.26b06116.js-unocss-hash.css": [
-    "/assets/rewrite-in-vite.26b06116.js",
+  "assets/rewrite-in-vite.22ab293c.js-unocss-hash.css": [
+    "/assets/rewrite-in-vite.22ab293c.js",
     "/assets/rewrite-in-vite.8e9cc18c.css"
   ],
   "pages/posts/register-domain-dot-tk.md": [
-    "/assets/register-domain-dot-tk.37c8d9a5.js"
+    "/assets/register-domain-dot-tk.66f89530.js"
   ],
   "pages/posts/onupdate-and-onunmount-reactjs.md": [
-    "/assets/onupdate-and-onunmount-reactjs.f8647075.js"
+    "/assets/onupdate-and-onunmount-reactjs.5a9007f1.js"
   ],
   "pages/posts/hello-talks.md": [
-    "/assets/hello-talks.b37885c1.js"
+    "/assets/hello-talks.99f8fb90.js"
   ],
   "pages/posts/hello.md": [
-    "/assets/hello.07cdb347.js"
+    "/assets/hello.0137e60a.js"
   ],
   "pages/posts/get-ip-with-js.md": [
-    "/assets/get-ip-with-js.1c4ffe89.js"
+    "/assets/get-ip-with-js.2de65020.js"
   ],
   "pages/posts/fix-the-property-for-this-item-is-not-available-window.md": [
-    "/assets/fix-the-property-for-this-item-is-not-available-window.ee328e68.js"
+    "/assets/fix-the-property-for-this-item-is-not-available-window.82e9839a.js"
+  ],
+  "pages/posts/fix-computer-that-cannot-boot-after-reininstalling-cmos-battery.md": [
+    "/assets/fix-computer-that-cannot-boot-after-reininstalling-cmos-battery.8042b662.js"
   ],
   "pages/posts/domain-email.md": [
-    "/assets/domain-email.71618270.js"
+    "/assets/domain-email.06dc897e.js"
   ],
   "pages/posts/disable-devtools-detect.md": [
-    "/assets/disable-devtools-detect.b74dc357.js"
+    "/assets/disable-devtools-detect.935bae77.js"
   ],
   "pages/posts/crack-voicein-extension.md": [
-    "/assets/crack-voicein-extension.af909c46.js",
+    "/assets/crack-voicein-extension.7b61eb0e.js",
     "/assets/crack-voicein-extension.1e797cbf.css"
   ],
-  "assets/crack-voicein-extension.af909c46.js-unocss-hash.css": [
-    "/assets/crack-voicein-extension.af909c46.js",
+  "assets/crack-voicein-extension.7b61eb0e.js-unocss-hash.css": [
+    "/assets/crack-voicein-extension.7b61eb0e.js",
     "/assets/crack-voicein-extension.1e797cbf.css"
   ],
   "src/components/slides/Marker.vue": [
-    "/assets/composable-vue-vueday-2021.17ba5064.js",
+    "/assets/composable-vue-vueday-2021.676e0b5a.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "src/components/slides/MarkerTips.vue": [
-    "/assets/composable-vue-vueday-2021.17ba5064.js",
+    "/assets/composable-vue-vueday-2021.676e0b5a.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "src/components/slides/MarkerPattern.vue": [
-    "/assets/composable-vue-vueday-2021.17ba5064.js",
+    "/assets/composable-vue-vueday-2021.676e0b5a.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "src/components/slides/VueUseFn.vue": [
-    "/assets/composable-vue-vueday-2021.17ba5064.js",
+    "/assets/composable-vue-vueday-2021.676e0b5a.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "~icons/carbon/sun": [
-    "/assets/composable-vue-vueday-2021.17ba5064.js",
+    "/assets/composable-vue-vueday-2021.676e0b5a.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "~icons/carbon/moon": [
-    "/assets/composable-vue-vueday-2021.17ba5064.js",
+    "/assets/composable-vue-vueday-2021.676e0b5a.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "src/components/slides/DarkToggleButton.vue": [
-    "/assets/composable-vue-vueday-2021.17ba5064.js",
+    "/assets/composable-vue-vueday-2021.676e0b5a.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "src/components/slides/MarkerCore.vue": [
-    "/assets/composable-vue-vueday-2021.17ba5064.js",
+    "/assets/composable-vue-vueday-2021.676e0b5a.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "~icons/carbon/logo-github": [
-    "/assets/composable-vue-vueday-2021.17ba5064.js",
+    "/assets/composable-vue-vueday-2021.676e0b5a.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "pages/posts/composable-vue-vueday-2021.md": [
-    "/assets/composable-vue-vueday-2021.17ba5064.js",
+    "/assets/composable-vue-vueday-2021.676e0b5a.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
-  "assets/composable-vue-vueday-2021.17ba5064.js-unocss-hash.css": [
-    "/assets/composable-vue-vueday-2021.17ba5064.js",
+  "assets/composable-vue-vueday-2021.676e0b5a.js-unocss-hash.css": [
+    "/assets/composable-vue-vueday-2021.676e0b5a.js",
     "/assets/composable-vue-vueday-2021.3c335edb.css"
   ],
   "pages/posts/anime-subarashi.md": [
-    "/assets/anime-subarashi.4a886c0d.js"
+    "/assets/anime-subarashi.23cea6c5.js"
   ],
   "pages/posts/index.md": [
-    "/assets/index.e6f4d623.js",
+    "/assets/index.816a2eb9.js",
     "/assets/talks.ae41bef8.css"
   ],
-  "assets/index.e6f4d623.js-unocss-hash.css": [
-    "/assets/index.e6f4d623.js",
+  "assets/index.816a2eb9.js-unocss-hash.css": [
+    "/assets/index.816a2eb9.js",
     "/assets/talks.ae41bef8.css"
   ],
   "pages/notes.md": [
-    "/assets/notes.724ae3bc.js"
+    "/assets/notes.5e8cbaa4.js"
   ],
   "pages/bookmarks.md": [
-    "/assets/bookmarks.0318a617.js"
+    "/assets/bookmarks.21eb1eeb.js"
   ],
   "pages/index.md": [
-    "/assets/index.64af0978.js"
+    "/assets/index.a9b44b5d.js"
   ],
   "pages/[...404].md": [
-    "/assets/_...404_.df3f477f.js"
+    "/assets/_...404_.1b45ee2e.js"
   ]
 }
